@@ -1,0 +1,11 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 2px solid rgb(13, 3, 149);
+  border-radius: 2px;
+  width: 300px;
+  padding: 8px;
+  margin: 24px 0;
+  
+}

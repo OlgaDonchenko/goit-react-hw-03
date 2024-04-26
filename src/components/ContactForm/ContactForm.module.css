@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 2px solid rgb(13, 3, 149);
+  border-radius: 2px;
+  width: 300px;
+  padding: 8px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: #2a2a2a;
+}
+
+.error {
+  color: red;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(85, 74, 239);
+  border-radius: 10px;
+
+  justify-content: center;
+  align-items: center;
+  color: rgb(198, 198, 201);
+  height: 40px;
+  font-weight: 500;
+}
+.btn:hover {
+  box-shadow: 0 0 5px #ffee10;
+}

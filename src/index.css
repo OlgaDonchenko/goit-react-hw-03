@@ -1,6 +1,6 @@
 body {
   color: #000;
-  background-color: #a39c9c;
+  background-color: #f2eded;
 }
 
 button {
@@ -8,10 +8,11 @@ button {
 }
 
 ul {
-  list-style-type: nrgb(236, 233, 233)
+  list-style-type: nrgb(236, 233, 233);
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 a {
